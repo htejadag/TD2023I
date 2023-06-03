@@ -20,7 +20,13 @@ namespace AppPrueba
             //Console.WriteLine("Hola, Mundo!");
             //Saludar();
             //Convertir();
-            Convertir2();
+            //Convertir2();
+            ExamenParcial obj = new();
+            obj.Pregunta1();
+            //obj.Pregunta2();
+            //obj.Pregunta3();
+            //obj.Pregunta4();
+            //obj.Pregunta5();
         }
 
         public static void Saludar()
@@ -78,7 +84,7 @@ namespace AppPrueba
                 Log.Information("Vamos a dividir dos numeros");
 
                 Int16 b;
-                Console.WriteLine("Ingrese un número");
+                Console.WriteLine("Ingrese un número"); // hola
                 string a = Console.ReadLine();
                 b = Int16.Parse(a);
                 Console.WriteLine("El número ingresado es " + b);
